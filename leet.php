@@ -2,7 +2,6 @@
 
 function divideString($s, $k, $fill) {
       $total_length =  strlen($s);
-     
       $a=[];
       $b ="";
         $j =1;
@@ -42,17 +41,10 @@ function divideString($s, $k, $fill) {
 
                               }
                               
-                            
-                            
-
-
                               $a[] = $b;
                               $b='';
-                          
-                   
-
                         } 
-  $p++;
+         $p++;
                   } else {
                   
                   }
